@@ -1,0 +1,15 @@
+       formule de connection au webserver ou ec2 par le terminal:
+  
+   ssh -i nomfile.pem ec2-user@IP
+                     NB:
+   Pour le putty il faut toujours se remind que l'on log in as ( 
+ ec2-user ) dc tu dois taper cela sur le termoinal putty lorsque tu es asked 
+de le faire.
+     rule1: Ctrl + D te permet de passer du Root(#) au ec2-user($) ou 
+            exit joue le same role dc tu type juste " exit " ds le terminal.
+     rule2: la commande < sudo su > te permet de devenir Administrator with 
+  super powers or credentials ce qui t'autorisera a faire des commandes commme 
+  yum update -y  ou bien faire tout ce que tu veux sur le webserver ( ec2 ) 
+que tu provide with.
+  remarque: tjs penser a consulter Stack Overflow pour trouver des reponses 
+          a des questions que l'on a.
